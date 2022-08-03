@@ -1,0 +1,10 @@
+<template>
+  <div>
+    <h1>子应用vue3</h1>
+    <micro-app 
+        name='child-vue3' 
+        url='http://localhost:8089/child/vue3/' 
+        baseroute='/main-vue2/child-vue3'>
+    </micro-app>
+  </div>
+</template>

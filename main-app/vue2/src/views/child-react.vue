@@ -1,0 +1,10 @@
+<template>
+  <div>
+    <h1>子应用react</h1>
+    <micro-app 
+        name='child-vue2' 
+        url='http://localhost:9527/' 
+        baseroute='/main-vue2/child-react'>
+    </micro-app>
+  </div>
+</template>
